@@ -23,9 +23,9 @@ This solution does not involve jdbc but could be handy to test/profile any query
 ```
 QUERY="select * from location where timestamp BETWEEN '$query_date 00:00:00' AND '$query_date 23:59:59'"
 mysql -u$user -p$pass $table -e "$QUERY" -B | sed "s/'/\'/;s/\t/\",\"/g;s/^/\"/;s/$/\"/;s/\n//g" > $output
-[generate-csv.sh](generate-csv.sh)
 
 ```
+[generate-csv.sh](generate-csv.sh)
 
 # Solution 2
 
