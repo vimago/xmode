@@ -20,7 +20,7 @@ CREATE TABLE location (
 
 There must be more than one way to approach this.
 
-## Solution 1: mysql
+### Solution 1: mysql
 
 This solution does not involve jdbc but could be handy to test/profile any query.
 
@@ -31,7 +31,7 @@ mysql -u$user -p$pass $table -e "$QUERY" -B | sed "s/'/\'/;s/\t/\",\"/g;s/^/\"/;
 
 ```
 
-## Solution 2: java
+### Solution 2: java
 
 Here is a quick java app with some abstractions that can still be simplified
 and generalized more. This could be handy to have in place abstractions that
@@ -42,7 +42,7 @@ db queries and csv files.
 java GenerateCsvFile 2017-05-01 tmp/simon.csv
 ```
 
-## Solution 3: java + mysql
+### Solution 3: java + mysql
 
 There seems to be this other way to generate csv files directly from the
 mysql statement:
@@ -82,4 +82,4 @@ missing something here.
 
 http://media.datadirect.com/download/docs/connectsqlxml/jdbcug/jdbcdesi.htm
 
-* I am sure there is more ways to make this run faster and with less memory.
+* etc, I am sure there is more ways to make this run faster and with less memory.
