@@ -38,8 +38,9 @@ and generalized more. This could be handy to have in place abstractions that
 can be customized and enhanced for any other queries/needs related to
 db queries and csv files.
 
+https://github.com/vimago/xmode
 ```
-java GenerateCsvFile 2017-05-01 tmp/simon.csv
+[GenerageCsvFile.java](src/GenerageCsvFile.java)
 ```
 
 ### Solution 3: java + mysql
