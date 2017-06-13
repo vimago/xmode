@@ -17,5 +17,5 @@ CREATE TABLE IF NOT EXISTS location (
 -- ('bbb', 2, 2, 2, '2017-05-05 18:19:03'),
 -- ('ccc', 3, 3, 3, '2017-06-05 18:19:03')
 
--- drop index idx_time on location;
--- CREATE INDEX idx_time ON location(timestamp) USING BTREE;
+-- drop index timestamp_idx on location;
+-- CREATE INDEX timestamp_idx ON location(timestamp) USING BTREE;
