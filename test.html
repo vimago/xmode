@@ -1,0 +1,544 @@
+
+<!DOCTYPE html>
+<html dir='ltr' lang='en'>
+<head prefix='og: http://ogp.me/ns# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<link rel="stylesheet" media="all" href="/assets/color_themes/original/desktop-512667b3a7c39ae544034d260717fa8e66e7226eca1d837db4f556ae693093fb.css" />
+<title>
+JoinDiaspora*
+</title>
+<meta charset='utf-8'>
+<meta name="description" content="diaspora* is the online social world where you are in control." />
+<meta property="description" content="diaspora* is the online social world where you are in control." />
+<meta property="og:site_name" content="diaspora* social network" />
+<meta property="og:url" content="https://joindiaspora.com/" />
+<meta property="og:image" content="https://joindiaspora.com/assets/branding/logos/asterisk.png" />
+<meta property="og:type" content="website" />
+<meta content='yes' name='mobile-web-app-capable'>
+<!-- favicon -->
+<!-- For Apple devices -->
+<link href='/assets/apple-touch-icon-9f7c9cc3923b4817fbb25bfeb0dd5fd34638827fd9c82b5a03f7b68e6e90806f.png' rel='apple-touch-icon'>
+<!-- For Nokia devices -->
+<link href='/assets/apple-touch-icon-9f7c9cc3923b4817fbb25bfeb0dd5fd34638827fd9c82b5a03f7b68e6e90806f.png' rel='shortcut icon'>
+<!-- All others -->
+<link href='/assets/favicon-158d223c914fb4936d3b14294dbc3f0d4d87ffced0694cc013cca43910ef2324.png' rel='shortcut icon'>
+<script src="/assets/jquery3-d43a06c9b06eea0b61cee53e936b98a550a49ebb19f62987c3b21263da24fa33.js"></script>
+<script src="/assets/jquery_ujs-f7e6ff735bd883210875b6de428ec57594cabae2829a73ed2288c32973ce664e.js"></script>
+<script nonce="XYJNm19kFmYOAlm3wJ5KST3IcBxMNx/UMUn4ALJvXqw=">jQuery.ajaxSetup({'cache': false});</script>
+<script nonce="XYJNm19kFmYOAlm3wJ5KST3IcBxMNx/UMUn4ALJvXqw=">
+//<![CDATA[
+window.gon={};gon.user={"id":671168,"guid":"143aae607ef201359b030242ac110007","name":"vimagox@joindiaspora.com","diaspora_id":"vimagox@joindiaspora.com","avatar":{"small":"/assets/user/default-2c878d1cd0171726fc490add065f342be5a959729df46a89807a4c18a8fc8d14.png","medium":"/assets/user/default-2c878d1cd0171726fc490add065f342be5a959729df46a89807a4c18a8fc8d14.png","large":"/assets/user/default-2c878d1cd0171726fc490add065f342be5a959729df46a89807a4c18a8fc8d14.png"},"notifications_count":1,"unread_messages_count":1,"admin":false,"moderator":false,"aspects":[{"id":1445970,"name":"Family","selected":true},{"id":1445971,"name":"Friends","selected":true},{"id":1445972,"name":"Work","selected":true},{"id":1445973,"name":"Acquaintances","selected":true}],"services":[],"following_count":1,"configured_services":[]};gon.appConfig={"chat":{"enabled":true},"settings":{"podname":"JoinDiaspora*"},"map":{"mapbox":{"enabled":false,"access_token":null,"style":"mapbox/streets-v9"}}};gon.preloads={"getting_started":true};
+//]]>
+</script>
+<script nonce="XYJNm19kFmYOAlm3wJ5KST3IcBxMNx/UMUn4ALJvXqw=">        if(Array.isArray === undefined) {
+          Array.isArray = function (arg) {
+            return Object.prototype.toString.call(arg) == '[object Array]';
+          };
+        }
+        if ((window.history) && (window.history.pushState === undefined)) {
+          window.history.pushState = function() { };
+        }
+</script>
+<!--[if IE]>
+<script src="/assets/ie-5a2b5f3e37faae0c7f73cf64ffc985979d3292ac45fd7ec75b1ad77f466bc9f8.js"></script>
+<![endif]-->
+<script src="/assets/main-ae5d21cc5514e15df3a4e532ddac7a35e9fc42baacdb4d8de81c3a9095940235.js"></script>
+<script src="/assets/templates-85d9cfd4133f59a6676ab0a1da621d04f06401b56691b21bb644666d2715fe40.js"></script>
+<script nonce="XYJNm19kFmYOAlm3wJ5KST3IcBxMNx/UMUn4ALJvXqw=">        Diaspora.I18n.load({"cancel":"Cancel","confirm_dialog":"Are you sure?","confirm_unload":"Please confirm that you want to leave this page. Data you have entered won’t be saved.","create":"Create","delete":"Delete","ignore":"Ignore","report":{"prompt":"Please enter a reason:","prompt_default":"e.g. offensive content","name":"Report","status":{"created":"The report has successfully been created","exists":"The report already exists"}},"ignore_user":"Ignore this user?","ignore_failed":"Unable to ignore this user","hide_post":"Hide this post?","hide_post_failed":"Unable to hide this post","remove_post":"Remove this post?","unblock_failed":"Unblocking this user has failed","and":"and","comma":",","edit":"Edit","no_results":"No results found","show_all":"Show all","admins":{"dashboard":{"up_to_date":"Your pod is up to date!","outdated":"Your pod is outdated.","compare_versions":"The latest diaspora* release is \u003c%= latestVersion %\u003e, your pod is running \u003c%= podVersion %\u003e.","error":"Unable to determine latest diaspora* version."}},"admin":{"pods":{"pod":"Pod","ssl":"SSL","ssl_enabled":"SSL enabled","ssl_disabled":"SSL disabled","added":"Added","status":"Status","states":{"unchecked":"Unchecked","no_errors":"OK","dns_failed":"Name resolution (DNS) failed","net_failed":"Connection attempt failed","ssl_failed":"Secure connection (SSL) failed","http_failed":"HTTP connection failed","version_failed":"Unable to retrieve software version","unknown_error":"An unspecified error has happened during the check"},"actions":"Actions","offline_since":"offline since:","last_check":"last check:","more_info":"show more information","check":"perform connection test","recheck":{"success":"The pod was just checked again.","failure":"The check was not performed."},"follow_link":"open link in browser","no_info":"No additional information available at this point","server_software":"Server software:","response_time":"Response time:","ms":{"one":"\u003c%= count %\u003ems","other":"\u003c%= count %\u003ems"},"unknown":"unknown","not_available":"not available","unchecked":{"one":"There is still one pod that hasn't been checked at all.","other":"There are still \u003c%= count %\u003e pods that haven't been checked at all."},"version_failed":{"one":"There is one pod that has no version (old pod, no NodeInfo).","other":"There are \u003c%= count %\u003e pods that have no version (old pods, no NodeInfo)."},"errors":{"one":"The connection test returned an error for one pod.","other":"The connection test returned an error for \u003c%= count %\u003e pods."}}},"aspects":{"make_aspect_list_visible":"Make contacts in this aspect visible to each other?","name":"Name","create":{"add_a_new_aspect":"Add a new aspect","success":"Your new aspect \u003c%= name %\u003e was created","failure":"Aspect creation failed."}},"errors":{"connection":"Unable to connect to the server."},"timeago":{"prefixAgo":"","prefixFromNow":"","suffixAgo":"ago","suffixFromNow":"from now","inPast":"any moment now","seconds":"less than a minute","minute":"about a minute","minutes":{"one":"1 minute","other":"%d minutes"},"hour":"about an hour","hours":{"one":"about 1 hour","other":"about %d hours"},"day":"a day","days":{"one":"1 day","other":"%d days"},"month":"about a month","months":{"one":"1 month","other":"%d months"},"year":"about a year","years":{"one":"1 year","other":"%d years"},"wordSeparator":" "},"contacts":{"add_contact":"Add contact","aspect_chat_is_enabled":"Contacts in this aspect are able to chat with you.","aspect_chat_is_not_enabled":"Contacts in this aspect are not able to chat with you.","aspect_list_is_visible":"Contacts in this aspect are able to see each other.","aspect_list_is_not_visible":"Contacts in this aspect are not able to see each other.","remove_contact":"Remove contact","error_add":"Couldn’t add \u003c%= name %\u003e to the aspect :(","error_remove":"Couldn’t remove \u003c%= name %\u003e from the aspect :(","search_no_results":"No contacts found"},"my_activity":"My activity","my_stream":"Stream","my_aspects":"My aspects","publisher":{"near_from":"Posted from: \u003c%= location %\u003e","option":"Answer","add_option":"Add an answer","question":"Question","markdown_editor":{"preview":"Preview","write":"Write","tooltips":{"bold":"Bold","italic":"Italic","heading":"Heading","insert_link":"Insert link","insert_image":"Insert image","insert_ordered_list":"Insert ordered list","insert_unordered_list":"Insert unordered list","preview":"Preview message","write":"Edit message","cancel":"Cancel message","quote":"Insert quotation","code":"Insert code"},"texts":{"strong":"strong text","italic":"italic text","heading":"heading text","insert_link_description_text":"enter link description here","insert_link_help_text":"Insert link here","insert_image_description_text":"enter image description here","insert_image_help_text":"Insert image link here","insert_image_title":"enter image title here","list":"list text here","quote":"quotation text here","code":"code here"}},"mention_success":"Successfully mentioned: \u003c%= names %\u003e"},"bookmarklet":{"post_something":"Post to diaspora*","post_submit":"Submitting post...","post_success":"Posted! Closing popup window..."},"aspect_dropdown":{"add_to_aspect":"Add contact","select_aspects":"Select aspects","all_aspects":"All aspects","updating":"updating...","mobile_row_checked":"\u003c%= name %\u003e (remove)","mobile_row_unchecked":"\u003c%= name %\u003e (add)","stopped_sharing_with":"You have stopped sharing with \u003c%= name %\u003e.","started_sharing_with":"You have started sharing with \u003c%= name %\u003e!","error":"Couldn’t start sharing with \u003c%= name %\u003e. Are you ignoring them?","error_remove":"Couldn’t remove \u003c%= name %\u003e from the aspect :(","toggle":{"one":"In \u003c%= count %\u003e aspect","other":"In \u003c%= count %\u003e aspects"}},"show_more":"Show more","failed_to_post_message":"Failed to post message!","failed_to_remove":"Failed to remove the entry!","comments":{"show":"Show all comments","hide":"Hide comments","no_comments":"There are no comments yet."},"reshares":{"successful":"The post was successfully reshared!","post":"Reshare \u003c%= name %\u003e’s post?"},"aspect_navigation":{"select_all":"Select all","deselect_all":"Deselect all","no_aspects":"No aspects selected","add_an_aspect":"+ Add an aspect"},"getting_started":{"hey":"Hey, \u003c%= name %\u003e!","no_tags":"Hey, you haven’t followed any tags! Continue anyway?","alright_ill_wait":"All right, I’ll wait.","preparing_your_stream":"Preparing your personalized stream..."},"photo_uploader":{"upload_photos":"Upload photos","looking_good":"OMG, you look awesome!","completed":"\u003c%= file %\u003e completed","error":"A problem occurred while uploading file \u003c%= file %\u003e","invalid_ext":"{file} has invalid extension. Only {extensions} are allowed.","size_error":"{file} is too large, maximum file size is {sizeLimit}.","empty":"{file} is empty, please select files again without it."},"tags":{"wasnt_that_interesting":"OK, I suppose #\u003c%= tagName %\u003e wasn’t all that interesting..."},"people":{"not_found":"... and no one was found","mention":"Mention","message":"Message","edit_my_profile":"Edit my profile","stop_ignoring":"Stop ignoring","helper":{"is_sharing":"\u003c%= name %\u003e is sharing with you","is_not_sharing":"\u003c%= name %\u003e is not sharing with you"}},"profile":{"edit":"Edit","add_some":"Add some","you_have_no_tags":"You have no tags!","bio":"Bio","location":"Location","gender":"Gender","born":"Birthday","photos":"Photos","contacts":"Contacts","posts":"Posts"},"conversation":{"create":{"no_recipient":"Hey, you need to add a recipient first!"},"new":{"no_contacts":"You need to add some contacts before you can start a conversation."}},"notifications":{"mark_read":"Mark read","mark_unread":"Mark unread","new_notifications":{"one":"You have \u003c%= count %\u003e unread notification","other":"You have \u003c%= count %\u003e unread notifications"}},"stream":{"hide":"Hide","public":"Public","limited":"Limited","like":"Like","unlike":"Unlike","reshare":"Reshare","comment":"Comment","original_post_deleted":"Original post deleted by author","show_nsfw_post":"Show post","show_nsfw_posts":"Show all","hide_nsfw_posts":"Hide #nsfw posts","follow":"Follow","unfollow":"Unfollow","enable_post_notifications":"Enable notifications for this post","disable_post_notifications":"Disable notifications for this post","permalink":"Permalink","via":"via \u003c%= provider %\u003e","no_posts_yet":"There are no posts to display here yet.","likes":{"zero":"\u003c%= count %\u003e Likes","one":"\u003c%= count %\u003e Like","other":"\u003c%= count %\u003e Likes"},"reshares":{"zero":"\u003c%= count %\u003e Reshares","one":"\u003c%= count %\u003e Reshare","other":"\u003c%= count %\u003e Reshares"},"comments":{"zero":"\u003c%= count %\u003e comments","one":"\u003c%= count %\u003e comment","other":"\u003c%= count %\u003e comments"},"more_comments":{"zero":"Show \u003c%= count %\u003e more comments","one":"Show \u003c%= count %\u003e more comment","other":"Show \u003c%= count %\u003e more comments"},"followed_tag":{"title":"#Followed tags","add_a_tag":"Add a tag","follow":"Follow"},"tags":{"follow":"Follow #\u003c%= tag %\u003e","following":"Following #\u003c%= tag %\u003e","stop_following":"Stop following #\u003c%= tag %\u003e","stop_following_confirm":"Stop following #\u003c%= tag %\u003e?","follow_error":"Couldn’t follow #\u003c%= tag %\u003e :(","stop_following_error":"Couldn’t stop following #\u003c%= tag %\u003e :("}},"header":{"home":"Home","profile":"Profile","contacts":"Contacts","settings":"Settings","help":"Help","admin":"Admin","moderator":"Moderator","log_out":"Log out","toggle_navigation":"Toggle navigation","toggle_mobile":"Toggle mobile","notifications":"Notifications","conversations":"Conversations","search":"Search","recent_notifications":"Recent notifications","mark_all_as_read":"Mark all as read","view_all":"View all","close":"Close"},"viewer":{"reshared":"Reshared"},"poll":{"vote":"Vote","go_to_original_post":"You can participate in this poll on the \u003c%= original_post_link %\u003e.","original_post":"original post","result":"Result","count":{"one":"1 vote so far","other":"\u003c%=count%\u003e votes so far"},"answer_count":{"zero":"0 votes","one":"1 vote","other":"\u003c%=count%\u003e votes"},"show_result":"Show result","close_result":"Hide result"},"pluralization_rule":"(function(input) { var runtime = (function(){return this.buildArgsFor=function(t){return[this.n(t),this.i(t),this.f(t),this.t(t),this.v(t),this.w(t)]},this.n=function(t){return this.toNum(t.indexOf(\".\")\u003e-1?this._n(t).replace(/([0]+\\.$)/,\"\"):this._n(t))},this.i=function(t){return this.toNum(this._i(t))},this.f=function(t){return this.toNum(this._f(t))},this.t=function(t){return this.toNum(this._t(t))},this.v=function(t){return this.toNum(this._v(t))},this.w=function(t){return this.toNum(this._w(t))},this.toNum=function(t){return 0==t.length?0:t.indexOf(\".\")\u003e-1?parseFloat(t):parseInt(t)},this._n=function(t){return/(-)?(.*)/.exec(t)[2]},this._i=function(t){return/([\\d]+)(\\..*)?/.exec(this._n(t))[1]},this._f=function(t){return/([\\d]+\\.?)(.*)/.exec(this._n(t))[2]},this._t=function(t){return this._f(t).replace(/([0]+$)/,\"\")},this._v=function(t){return this._f(t).length.toString()},this._w=function(t){return this._t(t).length.toString()},this}).call({}); var num = input.toString(); var n = runtime.n(num); var i = runtime.i(num); var v = runtime.v(num); var w = runtime.w(num); var f = runtime.f(num); var t = runtime.t(num); return ((i == 1 \u0026\u0026 v == 0) ? 'one' : 'other'); })","pod_name":"JoinDiaspora*"},
+                           "en",
+                           {"cancel":"Cancel","confirm_dialog":"Are you sure?","confirm_unload":"Please confirm that you want to leave this page. Data you have entered won’t be saved.","create":"Create","delete":"Delete","ignore":"Ignore","report":{"prompt":"Please enter a reason:","prompt_default":"e.g. offensive content","name":"Report","status":{"created":"The report has successfully been created","exists":"The report already exists"}},"ignore_user":"Ignore this user?","ignore_failed":"Unable to ignore this user","hide_post":"Hide this post?","hide_post_failed":"Unable to hide this post","remove_post":"Remove this post?","unblock_failed":"Unblocking this user has failed","and":"and","comma":",","edit":"Edit","no_results":"No results found","show_all":"Show all","admins":{"dashboard":{"up_to_date":"Your pod is up to date!","outdated":"Your pod is outdated.","compare_versions":"The latest diaspora* release is \u003c%= latestVersion %\u003e, your pod is running \u003c%= podVersion %\u003e.","error":"Unable to determine latest diaspora* version."}},"admin":{"pods":{"pod":"Pod","ssl":"SSL","ssl_enabled":"SSL enabled","ssl_disabled":"SSL disabled","added":"Added","status":"Status","states":{"unchecked":"Unchecked","no_errors":"OK","dns_failed":"Name resolution (DNS) failed","net_failed":"Connection attempt failed","ssl_failed":"Secure connection (SSL) failed","http_failed":"HTTP connection failed","version_failed":"Unable to retrieve software version","unknown_error":"An unspecified error has happened during the check"},"actions":"Actions","offline_since":"offline since:","last_check":"last check:","more_info":"show more information","check":"perform connection test","recheck":{"success":"The pod was just checked again.","failure":"The check was not performed."},"follow_link":"open link in browser","no_info":"No additional information available at this point","server_software":"Server software:","response_time":"Response time:","ms":{"one":"\u003c%= count %\u003ems","other":"\u003c%= count %\u003ems"},"unknown":"unknown","not_available":"not available","unchecked":{"one":"There is still one pod that hasn't been checked at all.","other":"There are still \u003c%= count %\u003e pods that haven't been checked at all."},"version_failed":{"one":"There is one pod that has no version (old pod, no NodeInfo).","other":"There are \u003c%= count %\u003e pods that have no version (old pods, no NodeInfo)."},"errors":{"one":"The connection test returned an error for one pod.","other":"The connection test returned an error for \u003c%= count %\u003e pods."}}},"aspects":{"make_aspect_list_visible":"Make contacts in this aspect visible to each other?","name":"Name","create":{"add_a_new_aspect":"Add a new aspect","success":"Your new aspect \u003c%= name %\u003e was created","failure":"Aspect creation failed."}},"errors":{"connection":"Unable to connect to the server."},"timeago":{"prefixAgo":"","prefixFromNow":"","suffixAgo":"ago","suffixFromNow":"from now","inPast":"any moment now","seconds":"less than a minute","minute":"about a minute","minutes":{"one":"1 minute","other":"%d minutes"},"hour":"about an hour","hours":{"one":"about 1 hour","other":"about %d hours"},"day":"a day","days":{"one":"1 day","other":"%d days"},"month":"about a month","months":{"one":"1 month","other":"%d months"},"year":"about a year","years":{"one":"1 year","other":"%d years"},"wordSeparator":" "},"contacts":{"add_contact":"Add contact","aspect_chat_is_enabled":"Contacts in this aspect are able to chat with you.","aspect_chat_is_not_enabled":"Contacts in this aspect are not able to chat with you.","aspect_list_is_visible":"Contacts in this aspect are able to see each other.","aspect_list_is_not_visible":"Contacts in this aspect are not able to see each other.","remove_contact":"Remove contact","error_add":"Couldn’t add \u003c%= name %\u003e to the aspect :(","error_remove":"Couldn’t remove \u003c%= name %\u003e from the aspect :(","search_no_results":"No contacts found"},"my_activity":"My activity","my_stream":"Stream","my_aspects":"My aspects","publisher":{"near_from":"Posted from: \u003c%= location %\u003e","option":"Answer","add_option":"Add an answer","question":"Question","markdown_editor":{"preview":"Preview","write":"Write","tooltips":{"bold":"Bold","italic":"Italic","heading":"Heading","insert_link":"Insert link","insert_image":"Insert image","insert_ordered_list":"Insert ordered list","insert_unordered_list":"Insert unordered list","preview":"Preview message","write":"Edit message","cancel":"Cancel message","quote":"Insert quotation","code":"Insert code"},"texts":{"strong":"strong text","italic":"italic text","heading":"heading text","insert_link_description_text":"enter link description here","insert_link_help_text":"Insert link here","insert_image_description_text":"enter image description here","insert_image_help_text":"Insert image link here","insert_image_title":"enter image title here","list":"list text here","quote":"quotation text here","code":"code here"}},"mention_success":"Successfully mentioned: \u003c%= names %\u003e"},"bookmarklet":{"post_something":"Post to diaspora*","post_submit":"Submitting post...","post_success":"Posted! Closing popup window..."},"aspect_dropdown":{"add_to_aspect":"Add contact","select_aspects":"Select aspects","all_aspects":"All aspects","updating":"updating...","mobile_row_checked":"\u003c%= name %\u003e (remove)","mobile_row_unchecked":"\u003c%= name %\u003e (add)","stopped_sharing_with":"You have stopped sharing with \u003c%= name %\u003e.","started_sharing_with":"You have started sharing with \u003c%= name %\u003e!","error":"Couldn’t start sharing with \u003c%= name %\u003e. Are you ignoring them?","error_remove":"Couldn’t remove \u003c%= name %\u003e from the aspect :(","toggle":{"one":"In \u003c%= count %\u003e aspect","other":"In \u003c%= count %\u003e aspects"}},"show_more":"Show more","failed_to_post_message":"Failed to post message!","failed_to_remove":"Failed to remove the entry!","comments":{"show":"Show all comments","hide":"Hide comments","no_comments":"There are no comments yet."},"reshares":{"successful":"The post was successfully reshared!","post":"Reshare \u003c%= name %\u003e’s post?"},"aspect_navigation":{"select_all":"Select all","deselect_all":"Deselect all","no_aspects":"No aspects selected","add_an_aspect":"+ Add an aspect"},"getting_started":{"hey":"Hey, \u003c%= name %\u003e!","no_tags":"Hey, you haven’t followed any tags! Continue anyway?","alright_ill_wait":"All right, I’ll wait.","preparing_your_stream":"Preparing your personalized stream..."},"photo_uploader":{"upload_photos":"Upload photos","looking_good":"OMG, you look awesome!","completed":"\u003c%= file %\u003e completed","error":"A problem occurred while uploading file \u003c%= file %\u003e","invalid_ext":"{file} has invalid extension. Only {extensions} are allowed.","size_error":"{file} is too large, maximum file size is {sizeLimit}.","empty":"{file} is empty, please select files again without it."},"tags":{"wasnt_that_interesting":"OK, I suppose #\u003c%= tagName %\u003e wasn’t all that interesting..."},"people":{"not_found":"... and no one was found","mention":"Mention","message":"Message","edit_my_profile":"Edit my profile","stop_ignoring":"Stop ignoring","helper":{"is_sharing":"\u003c%= name %\u003e is sharing with you","is_not_sharing":"\u003c%= name %\u003e is not sharing with you"}},"profile":{"edit":"Edit","add_some":"Add some","you_have_no_tags":"You have no tags!","bio":"Bio","location":"Location","gender":"Gender","born":"Birthday","photos":"Photos","contacts":"Contacts","posts":"Posts"},"conversation":{"create":{"no_recipient":"Hey, you need to add a recipient first!"},"new":{"no_contacts":"You need to add some contacts before you can start a conversation."}},"notifications":{"mark_read":"Mark read","mark_unread":"Mark unread","new_notifications":{"one":"You have \u003c%= count %\u003e unread notification","other":"You have \u003c%= count %\u003e unread notifications"}},"stream":{"hide":"Hide","public":"Public","limited":"Limited","like":"Like","unlike":"Unlike","reshare":"Reshare","comment":"Comment","original_post_deleted":"Original post deleted by author","show_nsfw_post":"Show post","show_nsfw_posts":"Show all","hide_nsfw_posts":"Hide #nsfw posts","follow":"Follow","unfollow":"Unfollow","enable_post_notifications":"Enable notifications for this post","disable_post_notifications":"Disable notifications for this post","permalink":"Permalink","via":"via \u003c%= provider %\u003e","no_posts_yet":"There are no posts to display here yet.","likes":{"zero":"\u003c%= count %\u003e Likes","one":"\u003c%= count %\u003e Like","other":"\u003c%= count %\u003e Likes"},"reshares":{"zero":"\u003c%= count %\u003e Reshares","one":"\u003c%= count %\u003e Reshare","other":"\u003c%= count %\u003e Reshares"},"comments":{"zero":"\u003c%= count %\u003e comments","one":"\u003c%= count %\u003e comment","other":"\u003c%= count %\u003e comments"},"more_comments":{"zero":"Show \u003c%= count %\u003e more comments","one":"Show \u003c%= count %\u003e more comment","other":"Show \u003c%= count %\u003e more comments"},"followed_tag":{"title":"#Followed tags","add_a_tag":"Add a tag","follow":"Follow"},"tags":{"follow":"Follow #\u003c%= tag %\u003e","following":"Following #\u003c%= tag %\u003e","stop_following":"Stop following #\u003c%= tag %\u003e","stop_following_confirm":"Stop following #\u003c%= tag %\u003e?","follow_error":"Couldn’t follow #\u003c%= tag %\u003e :(","stop_following_error":"Couldn’t stop following #\u003c%= tag %\u003e :("}},"header":{"home":"Home","profile":"Profile","contacts":"Contacts","settings":"Settings","help":"Help","admin":"Admin","moderator":"Moderator","log_out":"Log out","toggle_navigation":"Toggle navigation","toggle_mobile":"Toggle mobile","notifications":"Notifications","conversations":"Conversations","search":"Search","recent_notifications":"Recent notifications","mark_all_as_read":"Mark all as read","view_all":"View all","close":"Close"},"viewer":{"reshared":"Reshared"},"poll":{"vote":"Vote","go_to_original_post":"You can participate in this poll on the \u003c%= original_post_link %\u003e.","original_post":"original post","result":"Result","count":{"one":"1 vote so far","other":"\u003c%=count%\u003e votes so far"},"answer_count":{"zero":"0 votes","one":"1 vote","other":"\u003c%=count%\u003e votes"},"show_result":"Show result","close_result":"Hide result"},"pluralization_rule":"(function(input) { var runtime = (function(){return this.buildArgsFor=function(t){return[this.n(t),this.i(t),this.f(t),this.t(t),this.v(t),this.w(t)]},this.n=function(t){return this.toNum(t.indexOf(\".\")\u003e-1?this._n(t).replace(/([0]+\\.$)/,\"\"):this._n(t))},this.i=function(t){return this.toNum(this._i(t))},this.f=function(t){return this.toNum(this._f(t))},this.t=function(t){return this.toNum(this._t(t))},this.v=function(t){return this.toNum(this._v(t))},this.w=function(t){return this.toNum(this._w(t))},this.toNum=function(t){return 0==t.length?0:t.indexOf(\".\")\u003e-1?parseFloat(t):parseInt(t)},this._n=function(t){return/(-)?(.*)/.exec(t)[2]},this._i=function(t){return/([\\d]+)(\\..*)?/.exec(this._n(t))[1]},this._f=function(t){return/([\\d]+\\.?)(.*)/.exec(this._n(t))[2]},this._t=function(t){return this._f(t).replace(/([0]+$)/,\"\")},this._v=function(t){return this._f(t).length.toString()},this._w=function(t){return this._t(t).length.toString()},this}).call({}); var num = input.toString(); var n = runtime.n(num); var i = runtime.i(num); var v = runtime.v(num); var w = runtime.w(num); var f = runtime.f(num); var t = runtime.t(num); return ((i == 1 \u0026\u0026 v == 0) ? 'one' : 'other'); })","pod_name":"JoinDiaspora*"});
+        Diaspora.Page = "StreamsMulti";
+</script>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="FeIEend7NGrKhXwDi24gGaLvBqcGZhzVGadwQkE0+kTvIqhIqlYBTj5Wq7anbrRp335NUeCYdIDDTQjN1STICQ==" />
+
+<script src="/assets/jsxc-60fcc65a0292264c13012505a3f0f769623433a4badfa948a7a43357047c8a76.js" id="jsxc" data-endpoint="/http-bind"></script>
+
+
+
+</head>
+<body class='page-streams action-multi'>
+<header>
+</header>
+
+
+<noscript>
+<div class='noscript'>
+<h3>This website requires JavaScript to function properly. If you disabled JavaScript, please enable it and refresh this page.</h3>
+</div>
+</noscript>
+<div id='welcome-to-diaspora'>
+<div class='container-fluid'>
+<div class='row'>
+<div class='col-md-9'>
+<h1>
+Welcome to diaspora*, vimagox!
+</h1>
+<h3>
+This is your stream. Jump in and introduce yourself.
+</h3>
+</div>
+<div class='col-md-3'>
+<div class='pull-right'>
+<a id="gs-skip-x" class="close" href="/getting_started_completed">&times;</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='container-fluid'>
+<div class='row'>
+<div class='col-md-3'>
+<div class='sidebar left-navbar'>
+<ul id='stream_selection'>
+<li data-stream='stream'>
+<a rel="backbone" class="hoverable" href="/stream">Stream</a>
+</li>
+<li class='nested-list my-activity' data-stream='activity'>
+<a rel="backbone" class="hoverable" href="/activity">My activity</a>
+<ul>
+<li data-stream='liked'>
+<a rel="backbone" class="hoverable selectable" href="/liked">Liked posts</a>
+</li>
+<li data-stream='commented'>
+<a rel="backbone" class="hoverable selectable" href="/commented">Commented posts</a>
+</li>
+</ul>
+</li>
+<li data-stream='mentions'>
+<a rel="backbone" class="hoverable" href="/mentions">@Mentions</a>
+</li>
+<li class='nested-list all-aspects'>
+<a class="hoverable" rel="backbone" data-stream="aspects" href="/aspects">My aspects</a>
+<ul id='aspects_list'>
+</ul>
+
+</li>
+<li class='nested-list'>
+<a class="hoverable" data-stream="followed_tags" href="/followed_tags">#Followed tags</a>
+<ul id='tags_list'></ul>
+
+</li>
+<li data-stream='public'>
+<a rel="backbone" class="hoverable" href="/public">Public activity</a>
+</li>
+</ul>
+</div>
+<div class='alert alert-info' role='alert' style='margin-top: 15px;'>
+<b>Welcome to the Diaspora* Network! If you like it support us</b>
+<a class='alert-link' href='http://zauberstuhl.de/donate' target='_blank'>with a small donation</a>.
+<div class='progress' style='margin: 5px 0 5px 0;'>
+<div aria-valuemax='100' aria-valuemin='0' aria-valuenow='84.0' class='progress-bar progress-bar-info' role='progressbar' style='width:84.0%'>
+84.0%
+</div>
+</div>
+<a class='btn btn-info media-object' href='http://zauberstuhl.de/donate' role='button' style='color:#fff' target='_blank'>Donate</a>
+</div>
+
+<div class='sidebar info-bar hidden-xs'>
+<div class='section collapsed'>
+<div class='title'>
+<h5 class='title-header'>
+<div class='entypo-triangle-right'></div>
+<div class='entypo-triangle-down'></div>
+Invite your friends
+</h5>
+</div>
+<div class='content'>
+Share this link via email, blog, or social networks!
+<input type="text" name="invite_code" id="invite_code" value="https://joindiaspora.com/i/3512715ea446" class="form-control" readonly="readonly" />
+<div class='invitations-link btn btn-link' data-toggle='modal' id='invitations-button'>
+Invite people by email
+</div>
+
+</div>
+</div>
+<div class='section collapsed'>
+<div class='title'>
+<h5 class='title-header'>
+<div class='entypo-triangle-right'></div>
+<div class='entypo-triangle-down'></div>
+Welcome new users
+</h5>
+</div>
+<div class='content'>
+Follow <a href="/tags/newhere">#newhere</a> and welcome new users to diaspora*!
+<br>
+<a href="http://wiki.diasporafoundation.org/Welcoming_Committee">Learn more</a>
+</div>
+</div>
+<div class='section collapsed'>
+<div class='title'>
+<h5 class='title-header'>
+<div class='entypo-triangle-right'></div>
+<div class='entypo-triangle-down'></div>
+Need help?
+</h5>
+</div>
+<div class='content'>
+<p>
+The diaspora* community is here!
+</p>
+<p>
+Do you:
+</p>
+<ul>
+<li>
+... have a <a href="/tags/question">#question</a>?
+</li>
+<li>
+... find a <a href="https://wiki.diasporafoundation.org/How_to_report_a_bug">bug</a>?
+</li>
+<li>
+... have a <a href="https://discourse.diasporafoundation.org/c/features-and-ideas">feature</a> suggestion?
+</li>
+</ul>
+<p>
+<a href="/help">Help</a>, <a target="_blank" href="https://diasporafoundation.org/tutorials">Tutorials</a> & <a target="_blank" href="http://wiki.diasporafoundation.org">Wiki</a>: help for your first steps.
+</p>
+<p>
+You can also join the <a target="_blank" href="https://discourse.diasporafoundation.org/c/support">support forum</a>.
+</p>
+</div>
+</div>
+<div class='section collapsed'>
+<div class='title'>
+<h5 class='title-header'>
+<div class='entypo-triangle-right'></div>
+<div class='entypo-triangle-down'></div>
+Connect services
+</h5>
+</div>
+<div class='content'>
+<div>
+You can connect the following services to diaspora*:
+</div>
+<div class='right-service-icons'>
+<a href="/auth/twitter"><div class="social-media-logos-twitter-24x24" title="Twitter"></div></a>
+<a href="/auth/tumblr"><div class="social-media-logos-tumblr-24x24" title="Tumblr"></div></a>
+<a href="/auth/facebook"><div class="social-media-logos-facebook-24x24" title="Facebook"></div></a>
+<a href="/auth/wordpress"><div class="social-media-logos-wordpress-24x24" title="Wordpress"></div></a>
+</div>
+</div>
+</div>
+<div class='section collapsed'>
+<div class='title'>
+<h5 class='title-header'>
+<div class='entypo-triangle-right'></div>
+<div class='entypo-triangle-down'></div>
+Bookmarklet
+</h5>
+</div>
+<div class='content'>
+Post to diaspora* from anywhere by bookmarking this link => <a href="javascript:var bookmarklet=function(e,n,t,o){var r=1900,i=128,c=function(){var e=window,o=e.screenTop?e.screenTop:e.screenY,r=e.screenLeft?e.screenLeft:e.screenX,i=o+e.innerHeight/2-t/2,c=r+e.innerWidth/2-n/2;return&quot;width=&quot;+n+&quot;,height=&quot;+t+&quot;,top=&quot;+i+&quot;,left=&quot;+c},l=function(){var e=window,n=document,t=e.location.href,o=n.title,c=e.getSelection?e.getSelection():n.getSelection?n.getSelection():n.selection.createRange().text,l=c.toString(),s=r-t.length;return(o+l).length&gt;s&amp;&amp;(o.length&gt;i&amp;&amp;(o=o.substr(0,i)+&quot; ...&quot;),l.length&gt;s-i&amp;&amp;(l=l.substr(0,s-i)+&quot; ...&quot;)),&quot;url=&quot;+encodeURIComponent(t)+&quot;&amp;title=&quot;+encodeURIComponent(o)+&quot;&amp;notes=&quot;+encodeURIComponent(l)},s=function(){var n=o||&quot;location=yes,links=no,scrollbars=yes,toolbar=no&quot;,t=e+&quot;?jump=yes&quot;;window.open(e+&quot;?&quot;+l(),&quot;diaspora_bookmarklet&quot;,n+&quot;,&quot;+c())||(window.location.href=t+&quot;&amp;&quot;+l())};/Firefox/.test(navigator.userAgent)?setTimeout(s,0):s()};bookmarklet(&#39;https://joindiaspora.com/bookmarklet&#39;, 620, 400);">Post to diaspora*</a>.
+</div>
+</div>
+<div class='section collapsed'>
+<div class='title'>
+<h5 class='title-header'>
+<div class='entypo-triangle-right'></div>
+<div class='entypo-triangle-down'></div>
+Donate
+</h5>
+</div>
+<div class='content'>
+<p>
+Keep joindiaspora.com running fast and buy servers their coffee fix with a monthly donation!
+</p>
+<p>
+PayPal:
+<br>
+<form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_blank'>
+<input name='cmd' type='hidden' value='_s-xclick'>
+<input name='hosted_button_id' type='hidden' value='5336VTSWJCWA8'>
+<input name='currency_code' type='hidden' value='EUR'>
+<input class='btn btn-default' name='submit' type='submit' value='Donate'>
+</form>
+</p>
+<p>
+Bitcoin:
+<br>
+<input id='bitcoin_address' readonly type='text' value='12iup5ExX2CyscGiZtjgkfLucVYx7TAjyd'>
+</p>
+
+</div>
+</div>
+<div class='section collapsed'>
+<div class='title'>
+<h5 class='title-header'>
+<div class='entypo-triangle-right'></div>
+<div class='entypo-triangle-down'></div>
+Got a problem?
+</h5>
+</div>
+<div class='content'>
+<p>
+Contact the administrator of your pod!
+</p>
+<p>
+<a href="mailto:support@zauberstuhl.de">Podmin email</a>
+</p>
+</div>
+</div>
+<div class='excellence-box'>
+<div class='content'>
+<p>
+<a href="https://diasporafoundation.org/community_guidelines">Be excellent to each other! ♥</a>
+</p>
+</div>
+</div>
+<div class='info-links'>
+<div class='content'>
+<ul>
+<li><a href="https://discourse.diasporafoundation.org">Project discussions and support</a></li>
+<li><a href="https://github.com/diaspora/diaspora/blob/6f542522884635e3f8d0a9f0310a2177ff81272c/Changelog.md">What’s new?</a></li>
+<li><a title="Download the source code package" href="https://github.com/joindiaspora/joindiaspora">Code 0.7.0.1-p6f542522</a></li>
+<li><a href="/statistics">Pod statistics</a></li>
+<li><a href="/mobile/toggle">Toggle mobile</a></li>
+<li><a href="/terms">Terms</a></li>
+
+</ul>
+</div>
+</div>
+<div class='powered-box'>
+<div class='content'>
+<div class='powered-by-diaspora text-center'>
+<a href="https://diasporafoundation.org">Powered by diaspora*</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='col-md-9'>
+<div class='stream_container' id='aspect_stream_container'>
+<div class='container-fluid main-stream-publisher'>
+<div class='pull-left hidden-xs'>
+<a href='/people/143aae607ef201359b030242ac110007' class=' self' >
+      <img alt="vimagox@joindiaspora.com" class="avatar img-responsive center-block" title="vimagox@joindiaspora.com" data-person_id="671168" src="/assets/user/default-2c878d1cd0171726fc490add065f342be5a959729df46a89807a4c18a8fc8d14.png" />
+      </a>
+</div>
+<div class='mention_popup publisher row' id='publisher'>
+<div class='content_creation'>
+<form class="new_status_message" id="new_status_message" action="/status_messages" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="PsuWXd2rbPKeHq42sXIUTXx+Ls8BQNe8uuJuB8FNIA6c4UtDOeIuFF2XHrW1M8Fp7ewCpw196AoRtFcMT+oXdg==" />
+<params>
+<div class='publisher-textarea-wrapper' id='publisher_textarea_wrapper'>
+<textarea rows="2" tabindex="1" placeholder="Start a conversation..." data-title="1. Share&lt;a class=&quot;close&quot; href=&quot;#&quot;&gt;&amp;times;&lt;/a&gt;" data-content="Use #hashtags to classify your posts and find people who share your interests. Call out awesome people with @Mentions" class="form-control mention-textarea" name="status_message[text]" id="status_message_text">
+Hey everyone, I’m #newhere. I’m interested in #serverless. </textarea>
+<div class='typeahead-mention-box-wrap'>
+<input class='typeahead-mention-box hidden' type='text'>
+</div>
+<div class='container-fluid photodropzone-container' id='photodropzone_container'>
+<ul id='photodropzone'></ul>
+</div>
+<div class='location-container form-group' style='padding: 4px 6px;'>
+<input type="hidden" name="location[coords]" id="location_coords" />
+</div>
+<div class='poll-creator-container' id='poll_creator_container'>
+</div>
+<div id='button_container'>
+<div class='publisher-buttonbar' id='publisher-images'>
+<div class='btn btn-link poll-creator' id='poll_creator' title='Add a poll'>
+<i class='entypo-bar-graph'></i>
+</div>
+<div class='btn btn-link file-upload' id='file-upload'>
+<i class='entypo-camera publisher_image'></i>
+</div>
+<div class='btn btn-link locator' id='locator' title='Get your location'>
+<i class='entypo-location publisher_image'></i>
+</div>
+<div class='btn btn-link hide-location' id='hide_location' title='Remove location'>
+<i class='entypo-cross publisher_image'></i>
+</div>
+</div>
+<span class='markdownIndications'>
+You can use <a target="blank" href="https://diasporafoundation.org/formatting">Markdown</a> to format your post
+</span>
+</div>
+</div>
+</params>
+<input type="hidden" name="aspect_ids[]" id="aspect_ids_" value="public" />
+<div class='hidden' id='publisher_spinner'>
+<div class='loader'>
+<div class='spinner'></div>
+</div>
+</div>
+<div class='options_and_submit col-sm-12'>
+<div class='public_toggle clearfix'>
+<div class='btn-toolbar pull-right'>
+<div class='btn-group aspect_dropdown'>
+<button class='btn btn-default dropdown-toggle' data-content='Use this dropdown to change visibility of your post. (We suggest you make this first one public.)' data-toggle='dropdown' title='2. Control your audience&lt;a class=&quot;close&quot; href=&quot;#&quot;&gt;&amp;times;&lt;/a&gt;'>
+<i class='entypo-globe small' id='visibility-icon'></i>
+<span class='text'>
+Public
+</span>
+<span class='caret'></span>
+</button>
+<ul class='dropdown-menu pull-right' unSelectable='on'>
+<li class='public radio selected' data-aspect_id='public'>
+<a>
+<span class='status_indicator'>
+<i class='glyphicon glyphicon-ok'></i>
+</span>
+<span class='text'>
+Public
+</span>
+</a>
+</li>
+<li class='all_aspects radio' data-aspect_id='all_aspects'>
+<a>
+<span class='status_indicator'>
+<i class='glyphicon glyphicon-ok'></i>
+</span>
+<span class='text'>
+All aspects
+</span>
+</a>
+</li>
+<li class='divider'></li>
+<li class='aspect_selector' data-aspect_id='1445970'>
+<a>
+<span class='status_indicator'>
+<i class='glyphicon glyphicon-ok'></i>
+</span>
+<span class='text'>
+Family
+</span>
+</a>
+</li>
+<li class='aspect_selector' data-aspect_id='1445971'>
+<a>
+<span class='status_indicator'>
+<i class='glyphicon glyphicon-ok'></i>
+</span>
+<span class='text'>
+Friends
+</span>
+</a>
+</li>
+<li class='aspect_selector' data-aspect_id='1445972'>
+<a>
+<span class='status_indicator'>
+<i class='glyphicon glyphicon-ok'></i>
+</span>
+<span class='text'>
+Work
+</span>
+</a>
+</li>
+<li class='aspect_selector' data-aspect_id='1445973'>
+<a>
+<span class='status_indicator'>
+<i class='glyphicon glyphicon-ok'></i>
+</span>
+<span class='text'>
+Acquaintances
+</span>
+</a>
+</li>
+</ul>
+</div>
+
+<button class='btn btn-group btn-primary' id='submit'>Share</button>
+</div>
+<div class='btn-toolbar pull-right' id='publisher-service-icons'>
+<div class='btn btn-link question_mark' data-target='#publicExplainModal' data-toggle='modal' title='Manage connected services'>
+<i class='entypo-cog'></i>
+</div>
+</div>
+</div>
+</div>
+</form><a class="selected_contacts_link hidden" href="/contacts?aspect_ids%5B%5D=1445970&amp;aspect_ids%5B%5D=1445971&amp;aspect_ids%5B%5D=1445972&amp;aspect_ids%5B%5D=1445973"></a>
+</div>
+</div>
+<div aria-hidden='true' aria-labelledby='publicExplainModalLabel' class='modal fade' id='publicExplainModal' role='dialog' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'>
+<div class='modal-header'>
+<button aria-hidden='true' class='close' data-dismiss='modal' type='button'>
+&times;
+</button>
+<h3 class='modal-title' id='publicExplainModalLabel'>
+Set up connected services
+</h3>
+</div>
+<div class='modal-body'>
+<p>Public messages will be available for others outside of diaspora* to see.</p>
+<p><a href="https://joindiaspora.com/public/vimagox.atom">Atom feed</a></p>
+<p><a href="/services">Manage connected services</a></p>
+</div>
+<div class='modal-footer'>
+<div aria='{:hidden=&gt;&quot;true&quot;}' class='btn btn-default' data-dismiss='modal' type='button'>
+OK
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+<div class='stream' data-content='Your main stream is populated with all of your contacts, tags you follow, and posts from some creative members of the community.' id='main_stream' title='3. Stay updated&lt;a class=&quot;close&quot; href=&quot;#&quot;&gt;&amp;times;&lt;/a&gt;'></div>
+<div id='paginate'>
+<div class='loader hidden'>
+<div class='spinner'></div>
+</div>
+</div>
+<div class='empty_message' id='no_contacts'>
+<p class='lead'>
+You should add some more contacts!
+</p>
+<p>
+You can search or <a class="invitations-link" data-toggle="modal" href=" ">invite</a> more contacts.
+</p>
+Or you can share with <a href="/community_spotlight">Community spotlight</a>
+</div>
+
+
+</div>
+<a class='entypo-chevron-up back-to-top' href='#' id='back-to-top' title='Back to top'></a>
+</div>
+</div>
+</div>
+
+<div aria-hidden='true' aria-labelledby='invitationsModalLabel' class='modal fade' href='/users/invitations' id='invitationsModal' role='dialog' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'>
+<div class='modal-header'>
+<button aria-hidden='true' class='close' data-dismiss='modal' type='button'>
+&times;
+</button>
+<h3 class='modal-title' id='invitationsModalLabel'>
+Invite someone to join diaspora*!
+</h3>
+</div>
+<div class='modal-body'>
+<div class='text-center' id='modalWaiter'>
+<div class='loader'>
+<div class='spinner'></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class='blueimp-gallery blueimp-gallery-controls' id='blueimp-gallery'>
+<div class='slides'></div>
+<a class='prev'>
+<div class='entypo-chevron-small-left'></div>
+</a>
+<a class='next'>
+<div class='entypo-chevron-small-right'></div>
+</a>
+<a class='close'>
+<div class='entypo-cross'></div>
+</a>
+<a class='play-pause'></a>
+<ol class='indicator'></ol>
+</div>
+<div id='flash-container'></div>
+</body>
+</html>
+
